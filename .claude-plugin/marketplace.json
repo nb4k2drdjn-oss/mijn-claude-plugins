@@ -1,11 +1,20 @@
 {
-  "name": "Mijn Eigen Marktplaats",
+  "name": "johnhout-belastingadviseur",
+  "owner": {
+    "name": "ClaudePluginHub"
+  },
   "plugins": [
     {
-      "id": "belastingzaken",
-      "name": "Belastingzaken",
-      "repo": "johnhout/knowledge-work-belastingzaken",
-      "description": "De Nederlandse belasting-plugin"
+      "name": "johnhout-belastingadviseur",
+      "source": {
+        "source": "github",
+        "repo": "johnhout/knowledge-work-belastingzaken"
+      },
+      "description": "Ondersteunt Nederlandse belastingwerkstromen voor particulieren, zzp en bv met intake, aangiftevoorbereiding, controles en bezwaarconcepten met officiele bronverificatie.",
+      "version": "1.0.0",
+      "strict": true,
+      "keywords": [],
+      "category": "deployment"
     }
   ]
 }
