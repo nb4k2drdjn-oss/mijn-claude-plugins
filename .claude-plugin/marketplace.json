@@ -1,0 +1,11 @@
+{
+  "name": "Mijn Eigen Marktplaats",
+  "owner": { "name": "Jouw Naam" },
+  "plugins": [
+    {
+      "name": "Belastingzaken",
+      "source": "https://github.com/johnhout/knowledge-work-belastingzaken",
+      "description": "De Nederlandse belasting-plugin"
+    }
+  ]
+}
